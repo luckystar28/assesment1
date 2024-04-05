@@ -11,7 +11,7 @@
     <string name="tentang_developer">Developer</string>
     <string name="welcome_text">Halo, selamat datang di LaundryRie. Aplikasi ini memudahkan kalian untuk membagikan kepada Pembeli supaya tidak lupa dengan Laundrynya</string>
     <string name="kembali">Kembali</string>
-    <string name="about">Hi perkenalkan saya Togi Samuel Simarmata, saya dari kelas D3IF 46-03. Disini saya membuat aplikasi untuk Laundry yang dimana bisa diterapkan untuk Laundry Shop\nCopyright © 2024, All rights reserved.</string>
+    <string name="about">Hi perkenalkan saya Togi Samuel Simarmata, saya dari kelas D3IF 46-03. Disini saya membuat aplikasi untuk Laundry yang dimana bisa diterapkan untuk Laundry Shop Copyright © 2024, All rights reserved.</string>
     <string name="bagikan">Bagikan</string>
-    <string name="bagikan_template">LaundryRie Notification:\n\nBerat Baju: %1$s Kg\n%2$s Hari\n\nJika kamu belum pembayaran ini merupakan harga pembayaran kamu <b>Rp.%3$.2f</b>\ndan bisa kamu ambil dihari yang sudah diberitahukan. </string>
+    <string name="bagikan_template">"LaundryRie Notification:  Berat Baju: %1$s Kg %2$s Hari  Jika kamu belum pembayaran ini merupakan harga pembayaran kamu <b>Rp.%3$.2f</b> dan bisa kamu ambil dihari yang sudah diberitahukan. "</string>
 </resources>

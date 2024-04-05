@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LaundryRie</string>
+    <string name="intro">Welcome to LaundryRie, please enter the weight of the clothes and how many days you want to wash them, please fill in:</string>
+    <string name="berat">Weight of clothes</string>
+    <string name="hari">How many days</string>
+    <string name="hitung">Total</string>
+    <string name="reset">Remove</string>
+    <string name="harga">Harga: Rp. %1$.2f</string>
+    <string name="berapa_hari">Work during %1$s Days</string>
+    <string name="input_invalid">Can not be empty.</string>
+    <string name="tentang_developer">Developer</string>
+    <string name="welcome_text">Hello, welcome to Laundry Rie. This application makes it easy for you to share with buyers so they don\'t forget their laundry</string>
+    <string name="kembali">Back</string>
+    <string name="about">Hi, let me introduce myself, Togi Samuel Simarmata, I\'m from class D3IF 46-03. Here I made an application for Laundry which can be applied to Laundry Shop Copyright © 2024, All rights reserved.</string>
+    <string name="bagikan">Share</string>
+    <string name="bagikan_template">LaundryRie Notification: Clothes Weight: %1$s Kg %2$s Days If you haven\'t paid yet, this is your payment price <b>Rp.%3$.2f</b> and you can pick it up on the day you have been notified.</string>
+</resources>
