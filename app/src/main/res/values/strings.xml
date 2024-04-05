@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LaundryRie</string>
+    <string name="intro">Selamat datang di LaundryRie, Silahkan masukan berat baju dan berapa hari yang ingin dilaundry kan, Silahkan isi: </string>
+    <string name="berat">Berat baju</string>
+    <string name="hari">Berapa hari</string>
+    <string name="hitung">Totalkan</string>
+    <string name="reset">Hapus</string>
+    <string name="harga">Harga: Rp. %1$.2f</string>
+    <string name="berapa_hari">Pengerjaan selama %1$s Hari</string>
+    <string name="input_invalid">Tidak boleh kosong.</string>
+    <string name="tentang_developer">Developer</string>
+    <string name="welcome_text">Halo, selamat datang di LaundryRie. Aplikasi ini memudahkan kalian untuk membagikan kepada Pembeli supaya tidak lupa dengan Laundrynya</string>
+    <string name="kembali">Kembali</string>
+    <string name="about">Hi perkenalkan saya Togi Samuel Simarmata, saya dari kelas D3IF 46-03. Disini saya membuat aplikasi untuk Laundry yang dimana bisa diterapkan untuk Laundry Shop\nCopyright © 2024, All rights reserved.</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">LaundryRie Notification:\n\nBerat Baju: %1$s Kg\n%2$s Hari\n\nJika kamu belum pembayaran ini merupakan harga pembayaran kamu <b>Rp.%3$.2f</b>\ndan bisa kamu ambil dihari yang sudah diberitahukan. </string>
+</resources>
