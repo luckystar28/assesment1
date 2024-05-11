@@ -15,4 +15,24 @@
     <string name="about">Hi, let me introduce myself, Togi Samuel Simarmata, I\'m from class D3IF 46-03. Here I made an application for Laundry which can be applied to Laundry Shop Copyright © 2024, All rights reserved.</string>
     <string name="bagikan">Share</string>
     <string name="bagikan_template">LaundryRie Notification: Clothes Weight: %1$s Kg %2$s Days If you haven\'t paid yet, this is your payment price <b>Rp.%3$.2f</b> and you can pick it up on the day you have been notified.</string>
+    <string name="menu_catatan">Note Menu</string>
+    <string name="list">List View</string>
+    <string name="grid">Grid View</string>
+    <string name="list_kosong">There are no Laundry records yet</string>
+    <string name="tambah_catatan">Add Laundry data</string>
+    <string name="hapus_pesan">Delete Laundry data</string>
+    <string name="tombol_hapus">Delete</string>
+    <string name="tombol_batal">Cancel</string>
+    <string name="nama">Name</string>
+    <string name="berat_baju">Weight(Kg)</string>
+    <string name="lainnya">Other Options</string>
+    <string name="hapus">Delete Laundry data</string>
+    <string name="simpan">Save data</string>
+    <string name="invalid">Name, weight of clothes and day must be filled in!</string>
+    <string name="edit_catatan">Edit laundry data</string>
+    <string name="masuk">Enter the app</string>
+    <string name="hari_1">Days 1</string>
+    <string name="hari_2">Days 2</string>
+    <string name="hari_3">Days 3</string>
+    <string name="hari_4">Days 4</string>
 </resources>

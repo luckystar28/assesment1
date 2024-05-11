@@ -16,12 +16,15 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material.icons.outlined.List
 import androidx.compose.material3.Button
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.FloatingActionButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -48,8 +51,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.d3if3067.assesment1fix.ui.theme.Assesment1FIxTheme
 import org.d3if3067.assesment1fix.R
+import org.d3if3067.assesment1fix.ui.theme.Assesment1FIxTheme
 import org.d3if3067.assesment1fix.navigation.Screen
 import org.d3if3067.assesment1fix.ui.theme.Assesment1FIxTheme
 
@@ -89,11 +92,28 @@ fun MainScreen(navController: NavHostController) {
                     }
                 }
             )
+        },
+        floatingActionButton = {
+            FloatingActionButton(
+                onClick = {
+                    navController.navigate(Screen.Menu.route)
+                },
+                contentColor = MaterialTheme.colorScheme.onPrimary,
+                elevation = FloatingActionButtonDefaults.elevation()
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Menu,
+                    contentDescription = stringResource(R.string.menu_catatan),
+                    tint = MaterialTheme.colorScheme.onPrimary
+                )
+            }
+        },
+        content = { padding ->
+            ScreenContent(Modifier.padding(padding))
         }
-    ) { padding ->
-        ScreenContent(Modifier.padding(padding))
-    }
+    )
 }
+
 
 @Composable
 fun ScreenContent(modifier: Modifier) {

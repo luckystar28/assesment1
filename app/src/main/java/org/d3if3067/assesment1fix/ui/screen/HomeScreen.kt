@@ -5,12 +5,14 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowForward
 import androidx.compose.material.icons.outlined.ArrowForward
 import androidx.compose.material.icons.outlined.Info
+import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -28,8 +30,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import org.d3if3067.assesment1fix.ui.theme.Assesment1FIxTheme
 import org.d3if3067.assesment1fix.R
+import org.d3if3067.assesment1fix.ui.theme.Assesment1FIxTheme
 import org.d3if3067.assesment1fix.navigation.Screen
 import org.d3if3067.assesment1fix.ui.theme.Assesment1FIxTheme
 
@@ -42,19 +44,7 @@ fun HomeScreen(navController: NavHostController) {
                 title = {
                     Text(text = stringResource(id = R.string.app_name))
                 },
-                actions = {
-                    IconButton(
-                        onClick = {
-                            navController.navigate(Screen.Laundry.route)
-                        }
-                    ){
-                        Icon(
-                            imageVector = Icons.Outlined.ArrowForward,
-                            contentDescription = stringResource(R.string.kembali),
-                            tint = MaterialTheme.colorScheme.primary
-                        )
-                    }
-                },
+                actions = {},
                 colors = TopAppBarDefaults.mediumTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
                     titleContentColor = MaterialTheme.colorScheme.primary,
@@ -70,9 +60,19 @@ fun HomeScreen(navController: NavHostController) {
                     .padding(padding)
                     .padding(16.dp)
             )
+            Spacer(modifier = Modifier.height(16.dp))
+            Button(
+                onClick = {
+                    navController.navigate(Screen.Laundry.route)
+                },
+                modifier = Modifier.padding(16.dp)
+            ) {
+                Text(text = stringResource(R.string.masuk))
+            }
         }
     }
 }
+
 
 
 @Preview(showBackground = true)
