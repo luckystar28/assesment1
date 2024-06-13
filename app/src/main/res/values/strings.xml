@@ -6,6 +6,7 @@
     <string name="hitung">Totalkan</string>
     <string name="reset">Hapus</string>
     <string name="harga">Harga: Rp. %1$.2f</string>
+    <string name="harga_form" translatable="false">Harga</string>
     <string name="berapa_hari">Pengerjaan selama %1$s Hari</string>
     <string name="input_invalid">Tidak boleh kosong.</string>
     <string name="tentang_developer">Developer</string>
@@ -28,10 +29,23 @@
     <string name="lainnya">Pilihan Lainnya</string>
     <string name="hapus">Hapus Data Laundry</string>
     <string name="simpan">Simpan data</string>
+    <string name="batal" translatable="false">Batal</string>
     <string name="invalid">Nama, Berat baju dan hari harus di isi!</string>
     <string name="edit_catatan">Ubah Data Laundry</string>
     <string name="hari_1">1 Hari</string>
     <string name="hari_2">2 Hari</string>
     <string name="hari_3">3 Hari</string>
     <string name="hari_4">4 Hari</string>
+    <string name="tutup" translatable="false">Tutup</string>
+    <string name="konfirmasi_hapus" translatable="false">Yakin ingin hapus?</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="profil" translatable="false">Profil</string>
+    <string name="beratnya" translatable="false">Berat: </string>
+    <string name="kg" translatable="false">kg </string>
+    <string name="harganya" translatable="false">Harga: Rp.</string>
+    <string name="tambah_laundry" translatable="false">Tambah Laundry</string>
+    <string name="try_again" translatable="false">Coba lagi</string>
+    <string name="image" translatable="false">Gambar</string>
+    <string name="error" translatable="false">Gagal memuat data.. Koneksi error.</string>
+    <string name="template_bagikan" translatable="false">Dengan Nama : %1$s Berat : %2$s kg, Harga : %3$s</string>
 </resources>
